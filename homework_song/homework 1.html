@@ -1,0 +1,172 @@
+<!doctype html> <!-- html5 -->
+<html lang="zh-Hant-TW"> <!-- 台灣繁體語系 -->
+<!-- head標頭資訊的開始，用來作為網頁的描述 
+ ================================================== -->
+
+<head>
+    <meta charset="utf-8"> <!-- utf-8編碼，中文不會產生亂碼 -->
+    <title>我想和你一起/溫蒂漫步</title> <!-- 網頁標題 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例100%-->
+    <meta name="description" content="我想和你一起歌詞"> <!-- 提供搜尋引擎關於網頁頁面內的重要資訊-->
+    <link href="style1.css" rel="stylesheet"> <!-- 連結到style.css設定視覺規劃-->
+    <link rel="stylesheet" href="./style1.css">
+    <script src="https://kit.fontawesome.com/5b6312afa7.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <style>
+    .animation {
+       animation: fadeIn 2s;  
+    }
+
+</style>
+</head>
+<!-- head標頭資訊設定結束================================================== -->
+
+<body>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- header標頭開始-->
+
+    <header >
+
+        <h1 class=" animate__animated animate__jackInTheBox">我想和你一起</h1> <!-- 標題1-->
+        <h3>溫蒂漫步</h3> <!-- 標題3-->
+        <h2>作詞：俞曾妮/作曲：俞曾妮</h2> <!-- 標題2-->
+        <!-- nav導覽列設定開始-->
+        <nav  class="navigation" > <!-- nav設定類別（class)為navigation-->
+        
+            <ul> 
+                <li>
+                    <a  href="homework 1.html">
+                        <i  class="fa-solid fa-circle-chevron-right"> &nbsp;</i>我想和你一起</a></li>
+                <li>
+                    <a href="homework 2.html">
+                        <i class="fa-solid fa-circle-chevron-right"> &nbsp;</i>人質</a></li>
+            </ul>                                                 <!-- &nbsp;空白鍵-->
+            
+        </nav>
+        <!-- nav導覽列設定結束-->
+        <!-- main內文設定開始-->
+        <main > 
+            <div class="animation animate__animated animate__fadeIn"> 
+            <img src="img/我想和你一起 MV照.jpg" id="mv1" ><br>
+        <div>
+            我想和你一起<br> <!-- br換行-->
+            趕走天上的烏雲<br>
+            從那沙灘上驚醒<br>
+            說說這心情<br>
+            就像海浪捲在風裡<br>
+            撐了傘也措手不及<br>
+            <p></p> <!-- p段落-->
+            我帶著你的信<br>
+            我在這等你<br>
+            好想你的聲音<br>
+            和你<br>
+
+            La la la la la la<br>
+            La la la la<br>
+            La la la la la la<br>
+            La la la la la<br>
+            <p></p>
+            說說這心情<br>
+            就像海浪捲在風裡<br>
+            撐了傘也措手不及<br>
+            <p></p>
+            我帶著你的信<br>
+            我在這等你<br>
+            好想你的聲音<br>
+            和你<br>
+            <p></p>
+            我帶著你的信<br>
+            我在這等你<br>
+            好想你的聲音<br>
+            和你<br>
+            La la la la la la la la la<br>
+            La la la la la la la la la la<br>
+            La la la la la la<br>
+            La la la la la la la la la la la<br>
+            <p></p>
+        </div>
+
+            <div id="tabs" class="ui-tabs ui-corner-all ui-widget ui-widget-content">
+                <ul role="tablist"
+                    class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
+                    <li><button id="button1"><i class="fa-solid fa-music"></i>我想</button></li>
+                    <li><button id="button2"><i class="fa-solid fa-face-smile"></i>和你</button></li>
+                    <li><button id="button3"><i class="fa-solid fa-hand-holding-heart"></i>一起</button></li>
+                </ul>
+                <div id="tabs-1" aria-labelledby="ui-id-1" role="tabpanel"
+                    class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="false" style="">
+                    <p>我帶著你的信，我在這等你，<br>
+                       好想你的聲音和你。</p>
+                </div>
+                <div id="tabs-2" aria-labelledby="ui-id-2" role="tabpanel"
+                    class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="true" style="display: none;">
+                    <p>我有兩個心願：<br>
+                        在你身邊，你在身邊。</p>
+                </div>
+                <div id="tabs-3" aria-labelledby="ui-id-3" role="tabpanel"
+                    class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="true" style="display: none;">
+                    <p>
+                       與你在一起的時候，<br>
+                       總希望時間可走慢點。
+                    </p>
+                </div>
+
+
+            </div>
+            
+            <p>
+                <iframe  src="https://www.youtube.com/embed/ltFNlTWDgU8?si=3OmgFTWXDMWG-TdW"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </p>
+            <!-- a 超連結設定，需搭配href，target="_blank開啟新視窗-->
+            <a href="https://www.youtube.com/watch?v=ltFNlTWDgU8" target="_blank"><i class="fa-solid fa-headphones">&nbsp;</i>聽歌去</a>
+            <p></p>
+            </div>
+        </main>
+        <!-- main內文設定結束-->
+
+        <!-- footer頁尾設定開始-->
+        <footer>
+            <p class="copyright"><small>&copy; Copyright 2020 homework，本網站為作業之用，如有侵權敬請告知</small></p>
+        </footer>
+        <!-- footer頁尾設定結束-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            // 監聽事件 (哪一種事件監聽, 要做什麼事)
+            $('#button1').on('click', function () {
+                console.log('按到了');
+                $('#tabs-1').show();
+                $('#tabs-2').hide();
+                $('#tabs-3').hide();
+                $('#button1').css("background-color", "#a5f6feca");
+                $('#button2').css("background-color", "#f9f9f9b3");
+                $('#button3').css("background-color", "#f9f9f9b3");
+            });
+            $('#button2').on('click', function () {
+                console.log('按到了');
+                $('#tabs-2').show();
+                $('#tabs-1').hide();
+                $('#tabs-3').hide();
+                $('#button2').css("background-color", "#a5f6feca");
+                $('#button1').css("background-color", "#f9f9f9b3");
+                $('#button3').css("background-color", "#f9f9f9b3");
+            });
+            $('#button3').on('click', function () {
+                console.log('按到了');
+                $('#tabs-3').show();
+                $('#tabs-2').hide();
+                $('#tabs-1').hide();
+                $('#button3').css("background-color", "#a5f6feca");
+                $('#button2').css("background-color", "#f9f9f9b3");
+                $('#button1').css("background-color", "#f9f9f9b3");
+            });
+        </script>
+        
+</body>
