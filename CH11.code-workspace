@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../web 1101"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nknu-demo-page2"
+	}
+}
